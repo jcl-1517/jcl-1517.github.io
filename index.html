@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Effective JavaScript: Frogger</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <section class="statistics">
+
+      <span class="lives">5 Lives</span>
+
+      <span class="moves">0 Moves</span>
+
+      <span class="arrivals">0 arrivals</span>
+
+      <span class="clock">0 minutes 0 seconds</span>
+
+    </section>
+
+
+    <div class="resultsTable">
+      <h2>You WIN!</h2>
+      <h4>Congratulations on your victory! (Or mine perhaps)</h4>
+      <p>Your Moves: <span id="winMoves"></span><br /></p>
+      <p>Your Lives: <span id="winLives"></span><br /></p>
+      <p>Your Time: <span id="winTime"></span></p>
+      <p>THE CODE TO OPEN THE CV: Bilbo Baggins </p>
+      <button id="playAgainButton">PLAY AGAIN</button>
+    </div>
+
+    <div class="loseTable">
+      <h2>You lost...</h2>
+      <p>Next time, choose better equipment!</p>
+      <img class="image" src="https://cdn.pixabay.com/photo/2012/04/12/21/38/flea-30753_960_720.png" alt="bug-equipment">
+      <button class="TryAgainButton" id="TryAgainButton">TRY AGAIN</button>
+    </div>
+
+    <div class="board">
+      <script src="js/resources.js"></script>
+      <script src="js/app.js"></script>
+      <script src="js/engine.js"></script>
+    </div>
+
+  </div>
+
+<!--
+  <div id="choosePlayersBox" class="choosePlayersBox">
+    <div id="player5">
+      <img src="images/char-horn-girl.png">
+    </div>
+    <div id="player4">
+    <img src="images/char-cat-girl.png">
+    </div>
+    <div id="player3">
+    <img src="images/char-pink-girl.png">
+    </div>
+    <div id="player2">
+    <img src="images/char-princess-girl.png">
+    </div>
+    <div id="player1">
+    <img src="images/char-boy.png">
+    </div>
+
+  </div>
+-->
+
+</body>
+
+</html>

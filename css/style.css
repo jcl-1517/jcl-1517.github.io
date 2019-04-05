@@ -1,0 +1,106 @@
+body {
+  text-align: center;
+  margin: 0px;
+  display: relative;
+  font-family: 'Coda';
+  background: #f0b7a1;
+  /* Old browsers */
+  background: -webkit-linear-gradient(#f0b7a1 0%, #752201 0%, #8c3310 50%, #bf6e4e 96%);
+  background: -o-linear-gradient(#f0b7a1 0%, #752201 0%, #8c3310 50%, #bf6e4e 96%);
+  background: linear-gradient(#f0b7a1 0%, #752201 0%, #8c3310 50%, #bf6e4e 96%);
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e', GradientType=0);
+  /* IE6-9 */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.arrivals {
+  margin: 10px;
+  margin-right: 3.5em;
+}
+
+.statistics {
+  border: solid 2px grey;
+  border-radius: 5px;
+  font-size: 1.4em;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3px;
+  margin-left: 22%;
+  margin-right: 22%;
+}
+
+.lives {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 1em;
+  margin-right: 3.5em;
+}
+
+.moves {
+  margin: 10px;
+  margin-right: 3.5em;
+}
+
+.clock {
+  margin: 10px;
+}
+
+.messages {
+  margin: 20%;
+  position: a
+}
+
+.resultsTable {
+  text-align: center;
+  font-size: 1.5em;
+  color: black;
+  opacity: 0;
+  border: 5px dashed white;
+  z-index: 0;
+  width: 50%;
+  height: 90%;
+  position: absolute;
+  background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+  -webkit-box-shadow: 0px 0px 48px 7px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 0px 0px 48px 7px rgba(0, 0, 0, 0.58);
+  box-shadow: 0px 0px 48px 7px rgba(0, 0, 0, 0.58);
+  margin-top: 24%;
+}
+
+.loseTable {
+  text-align: center;
+  font-size: 1.5em;
+  color: black;
+  opacity: 0;
+  border: 5px dashed white;
+  z-index: 0;
+  width: 50%;
+  height: 90%;
+  position: absolute;
+  background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+  -webkit-box-shadow: 0px 0px 48px 7px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 0px 0px 48px 7px rgba(0, 0, 0, 0.58);
+  box-shadow: 0px 0px 48px 7px rgba(0, 0, 0, 0.58);
+  margin-top: 24%;
+}
+
+.image {
+  width: 45%;
+}
+
+/*.choosePlayersBox {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20%;
+  padding-right: 20%;
+}*/
